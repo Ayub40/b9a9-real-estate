@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Modern City Apartment",
+        "segment_name": "Residential",
+        "description": "Stunning modern apartment in the heart of the city with panoramic views.",
+        "price": "$500,000",
+        "status": "sale",
+        "area": "1500 sq ft",
+        "location": "Downtown, City Name",
+        "facilities": [
+            "spacious living room",
+            "gym",
+            "rooftop terrace"
+        ],
+        "image": "https://i.ibb.co/JqHHsjh/aubrey-odom-ITzfg-P77-DTg-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "estate_title": "Cozy Suburban Home",
+        "segment_name": "Residential",
+        "description": "Charming suburban home with a large backyard, perfect for a family.",
+        "price": "$350,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "Suburbia, City Name",
+        "facilities": [
+            "backyard garden",
+            "home office",
+            "garage"
+        ],
+        "image": "https://i.ibb.co/yPgHNwd/ian-macdonald-W8z6aiwfi1-E-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "estate_title": "Luxury Villa by the Sea",
+        "segment_name": "Residential",
+        "description": "Exquisite villa situated right by the ocean, offering unparalleled luxury.",
+        "price": "$1,200,000",
+        "status": "sale",
+        "area": "5000 sq ft",
+        "location": "Seaside, City Name",
+        "facilities": [
+            "private beach access",
+            "infinity pool",
+            "home theater"
+        ],
+        "image": "https://i.ibb.co/b1fVfR3/dillon-kydd-XGvwt544g8k-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "estate_title": "Riverside Townhouse",
+        "segment_name": "Residential",
+        "description": "Elegant townhouse overlooking the river, ideal for peaceful living.",
+        "price": "$450,000",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "Riverside, City Name",
+        "facilities": [
+            "riverside deck",
+            "fireplace",
+            "modern kitchen"
+        ],
+        "image": "https://i.ibb.co/K2f1vcN/frames-for-your-heart-2d4l-AQAlb-DA-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "estate_title": "Country Cottage Retreat",
+        "segment_name": "Residential",
+        "description": "Quaint cottage nestled in the countryside, surrounded by nature's beauty.",
+        "price": "$250,000",
+        "status": "sale",
+        "area": "1200 sq ft",
+        "location": "Countryside, City Name",
+        "facilities": [
+            "wraparound porch",
+            "garden gazebo",
+            "fire pit"
+        ],
+        "image": "https://i.ibb.co/GpF8t5K/jacques-bopp-Hh18-POSx5qk-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "estate_title": "Mountain View Chalet",
+        "segment_name": "Residential",
+        "description": "Charming chalet nestled in the mountains, offering breathtaking views.",
+        "price": "$600,000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "Mountain Range, City Name",
+        "facilities": [
+            "panoramic windows",
+            "ski storage",
+            "wood-burning stove"
+        ],
+        "image": "https://i.ibb.co/symR5BC/webaliser-TPTXZd9m-Oo-unsplash.jpg"
+    },
+    {
+        "id": 7,
+        "estate_title": "Lakefront Retreat",
+        "segment_name": "Residential",
+        "description": "Tranquil retreat by the lake, perfect for relaxation and water activities.",
+        "price": "$700,000",
+        "status": "sale",
+        "area": "2800 sq ft",
+        "location": "Lakefront, City Name",
+        "facilities": [
+            "private dock",
+            "boat house",
+            "lakeview deck"
+        ],
+        "image": "https://i.ibb.co/VV2Wwr6/r-architecture-2g-Dwl-Iim3-Uw-unsplash.jpg"
+    },
+    {
+        "id": 8,
+        "estate_title": "Urban Loft",
+        "segment_name": "Residential",
+        "description": "Trendy loft space in the heart of the urban jungle, ideal for modern living.",
+        "price": "$800,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "City Center, City Name",
+        "facilities": [
+            "exposed brick walls",
+            "high ceilings",
+            "modern kitchen"
+        ],
+        "image": "https://i.ibb.co/dQxb1Yc/greg-rivers-r-Ch-FUMw-Ae7-E-unsplash.jpg"
+    },
+    {
+        "id": 9,
+        "estate_title": "Countryside Farmhouse",
+        "segment_name": "Residential",
+        "description": "Charming farmhouse surrounded by rolling hills and farmland.",
+        "price": "$400,000",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "Rural Countryside, City Name",
+        "facilities": [
+            "wraparound porch",
+            "barn",
+            "vegetable garden"
+        ],
+        "image": "https://i.ibb.co/b1fVfR3/dillon-kydd-XGvwt544g8k-unsplash.jpg"
+    }
+]
