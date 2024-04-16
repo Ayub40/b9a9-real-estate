@@ -3,6 +3,13 @@ import { useLoaderData } from 'react-router-dom';
 import EstateSection from './EstateSection';
 import Slider from './Slider';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
+import 'animate.css';
+
 const Home = () => {
 
     const estates = useLoaderData();
