@@ -9,6 +9,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 import 'animate.css';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
 
@@ -17,6 +18,9 @@ const Home = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
             <Slider></Slider>
             <div>
                 <h1 className='text-center mb-12 font-bold text-5xl'>Featured properties</h1>

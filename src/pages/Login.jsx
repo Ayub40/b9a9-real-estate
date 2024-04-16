@@ -7,6 +7,7 @@ import { AuthContext } from "../providers/AuthProvider";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from "react-helmet-async";
 
 
 const Login = () => {
@@ -60,8 +61,10 @@ const Login = () => {
 
     return (
         <div>
-            {/* <Navbar></Navbar> */}
-            <div>
+            <Helmet>
+                <title>Login</title>
+            </Helmet>
+            <div data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1200">
                 <h2 className="text-3xl my-10 text-center">Login your account</h2>
 
                 <form onSubmit={handleLogin} className="card-body md:w-3/4 lg:w-1/2 mx-auto shadow-lg rounded mb-3">

@@ -1,10 +1,14 @@
 // import Navbar from "./Navbar";
 
+import { Helmet } from "react-helmet-async";
+
 
 const UpdateProfile = () => {
     return (
         <div>
-            {/* <Navbar></Navbar> */}
+              <Helmet>
+                <title>UpdateProfile</title>
+            </Helmet>
             <h2>Update Profile</h2>
         </div>
     );

@@ -7,6 +7,7 @@ import { AuthContext } from "../providers/AuthProvider";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from "react-helmet-async";
 
 
 const Register = () => {
@@ -61,7 +62,9 @@ const Register = () => {
 
     return (
         <div>
-            {/* <Navbar></Navbar> */}
+              <Helmet>
+                <title>Register</title>
+            </Helmet>
             <div>
                 <h2 className="text-3xl my-10 text-center">Register your account</h2>
 

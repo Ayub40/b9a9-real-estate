@@ -9,6 +9,7 @@ import Login from "../pages/Login";
 import EstateDetails from "../pages/EstateDetails";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPage from "../pages/ErrorPage";
+import Orders from "../pages/Orders";
 
 
 
@@ -26,8 +27,13 @@ const router = createBrowserRouter([
             {
                 path: '/residential/:id',
                 element: <PrivateRoute><EstateDetails></EstateDetails></PrivateRoute>,
-                loader: () => fetch('/residential.json')
-
+                loader: () => fetch('/residential.json'),
+                // children: [
+                //     {
+                //         index: true,
+                //         element: <Orders></Orders>
+                //     }
+                // ]
             },
             {
                 path: '/update',
@@ -44,6 +50,10 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            },
+            {
+                path: "/orders",
+                element: <PrivateRoute><Orders></Orders></PrivateRoute>
             }
         ]
     },
