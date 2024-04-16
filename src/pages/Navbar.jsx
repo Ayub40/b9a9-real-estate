@@ -1,12 +1,15 @@
 import { Link, NavLink } from "react-router-dom";
-import userDefaultPic from '../assets/user.png';
+// import userDefaultPic from '../assets/user.png';
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
+// import ReactDOM from "react-dom";
 // import { AuthContext } from "../providers/AuthProvider";
+// import { Tooltip } from 'react-tooltip';
+
 
 
 const Navbar = () => {
-    const { user, logOut} = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
 
     // if (loading) {
     //     return <span className="loading loading-spinner loading-lg"></span>
@@ -23,7 +26,7 @@ const Navbar = () => {
         <li><NavLink to="/update">Update Profile </NavLink></li>
         <li><NavLink to="/blogs">Blog</NavLink></li>
         <li><NavLink to="/orders">Orders</NavLink></li>
-        
+
         {/* {
             user && <>
                 <li><NavLink to="/profile">User Profile</NavLink></li>
@@ -51,11 +54,23 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
 
+                <div className="tooltip tooltip-bottom" data-tip={user?.displayName}>
+                    <button className="btn btn-circle">
+                        <div className="w-8 rounded-full">
+                            <img className="rounded-full" src={user?.photoURL || "https://i.ibb.co/z6TYbrc/user.png"} />
+                        </div>
+                    </button>
+                </div>
+
+
+                {/* 
                 {
                     user ?
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar mr-2">
                             <div className="w-10 rounded-full">
+
                                 <img src={user?.photoURL || "https://i.ibb.co/z6TYbrc/user.png"} />
+
                             </div>
                         </div>
                         :
@@ -65,10 +80,11 @@ const Navbar = () => {
 
                 {
                     user ?
+
                         <button>{user?.displayName}</button>
                         :
                         <button>user not found</button>
-                }
+                } */}
 
                 {
                     user ?

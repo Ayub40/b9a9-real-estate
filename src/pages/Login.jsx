@@ -1,7 +1,7 @@
 
 import { FaGithub, FaGoogle } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+// import Navbar from "./Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../providers/AuthProvider";
 
@@ -13,6 +13,11 @@ import { Helmet } from "react-helmet-async";
 const Login = () => {
     const [registerError, setRegisterError] = useState('');
     const [success, setSuccess] = useState('');
+
+    const location = useLocation();
+    console.log('location in the login page', location);
+
+    const navigate = useNavigate();
 
     const { signIn, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
 
@@ -30,6 +35,8 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 console.log(result.user)
+
+                navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
                 console.error(error);
@@ -41,6 +48,7 @@ const Login = () => {
         signInWithGoogle()
             .then(result => {
                 console.log(result.user);
+                navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
                 console.error(error);
@@ -51,6 +59,7 @@ const Login = () => {
         signInWithGithub()
             .then(result => {
                 console.log(result.user);
+                navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
                 console.log(error);
