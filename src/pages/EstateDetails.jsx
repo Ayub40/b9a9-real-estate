@@ -1,4 +1,4 @@
-// import { useEffect, useState } from 'react';
+
 import { useParams } from 'react-router-dom';
 import { useLoaderData } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ const EstateDetails = () => {
     const idInt = parseInt(id);
     const estate = estates.find(estate => estate.id === idInt);
     console.log(estate);
-    // const estate = useLoader();
+    
     const { estate_title, description, segment_name, price, status, area, location, facilities, image } = estate;
 
 

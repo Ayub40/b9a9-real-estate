@@ -6,7 +6,11 @@ import { AuthContext } from "../providers/AuthProvider";
 
 
 const Navbar = () => {
-    const { user, logOut } = useContext(AuthContext);
+    const { user, logOut} = useContext(AuthContext);
+
+    // if (loading) {
+    //     return <span className="loading loading-spinner loading-lg"></span>
+    // }
 
     const handleSignOut = () => {
         logOut()
@@ -17,8 +21,8 @@ const Navbar = () => {
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/update">Update Profile </NavLink></li>
-        {/* <li><NavLink to="/residential/:id"> Profile </NavLink></li> */}
-        {/* <li><NavLink to="/profile">User Profile</NavLink></li> */}
+        <li><NavLink to="/blogs">Blog</NavLink></li>
+        
         {
             user && <>
                 <li><NavLink to="/profile">User Profile</NavLink></li>
@@ -27,7 +31,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

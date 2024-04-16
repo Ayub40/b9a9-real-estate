@@ -6,7 +6,7 @@ const EstateSection = ({ estate }) => {
     return (
         <div>
 
-            <div className="card card-compact  bg-base-100 shadow-xl">
+            <div className="card card-compact  bg-base-100 shadow-xl md:h-[400px]">
                 <figure><img src={image} alt="Shoes" /></figure>
                 <div className="mt-4 flex ">
                     <h2 className="flex mr-4 ml-4">{estate_title} </h2>

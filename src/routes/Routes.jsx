@@ -8,6 +8,7 @@ import Register from "../pages/Register";
 import Login from "../pages/Login";
 import EstateDetails from "../pages/EstateDetails";
 import PrivateRoute from "./PrivateRoute";
+import ErrorPage from "../pages/ErrorPage";
 
 
 
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
