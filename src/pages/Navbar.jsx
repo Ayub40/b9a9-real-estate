@@ -24,7 +24,7 @@ const Navbar = () => {
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/update">Update Profile </NavLink></li>
-        <li><NavLink to="/blogs">Blog</NavLink></li>
+        {/* <li><NavLink to="/blogs">Blog</NavLink></li> */}
         <li><NavLink to="/orders">Orders</NavLink></li>
 
         {/* {
@@ -88,7 +88,7 @@ const Navbar = () => {
 
                 {
                     user ?
-                        <button onClick={handleSignOut} className="btn btn-outline ml-2 px-12 mb-2">Logged Out</button>
+                        <button onClick={handleSignOut} className="btn btn-outline ml-2 md:px-12 mb-2">Logged Out</button>
                         :
                         <Link to='/login'>
                             <button className="btn btn-outline ml-2 px-12 mb-2">Login</button>

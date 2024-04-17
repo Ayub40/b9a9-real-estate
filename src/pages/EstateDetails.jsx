@@ -60,7 +60,7 @@ const EstateDetails = () => {
                                         <p data-aos="fade-left" data-aos-delay="2600" data-aos-duration="1200">Price : {price}</p>
                                     </div>
                                 </div>
-                                <button className="btn bg-[#46A094] w-full text-xl">Order</button>
+                                <button className="btn bg-[#46A094] w-full text-xl">Buy Now!</button>
                             </div>
                             <ToastContainer />
                         </div>
@@ -70,6 +70,7 @@ const EstateDetails = () => {
                     </div>
                 </div>
             </div>
+
         </section>
     );
 };

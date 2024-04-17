@@ -10,6 +10,7 @@ import EstateDetails from "../pages/EstateDetails";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPage from "../pages/ErrorPage";
 import Orders from "../pages/Orders";
+// import './index.css'
 
 
 
