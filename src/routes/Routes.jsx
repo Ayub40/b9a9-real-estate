@@ -9,7 +9,8 @@ import Login from "../pages/Login";
 import EstateDetails from "../pages/EstateDetails";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPage from "../pages/ErrorPage";
-import Orders from "../pages/Orders";
+// import Orders from "../pages/Orders";
+import Offer from "../pages/Offer";
 // import './index.css'
 
 
@@ -54,7 +55,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/orders",
-                element: <PrivateRoute><Orders></Orders></PrivateRoute>
+                element: <PrivateRoute><Offer></Offer></PrivateRoute>
             }
         ]
     },

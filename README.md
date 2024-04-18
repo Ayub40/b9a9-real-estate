@@ -15,11 +15,11 @@ Currently, two official plugins are available:
 
 # Five bullet points features of my website
 
-  Responsive Design         : Optimized for desktops, tablets, smartphones for seamless browsing
-  Exclusive Deals           : Access special offers and discounts on select properties.
-  Elegant Architecture      : Featuring stunning design elements and intricate details throughout.
-  Sustainability            : Embrace eco-friendly practices and green building materials for a reduced environmental footprint.
-  Comprehensive Surveillance: Implementing advanced security systems including cameras, alarms, and motion sensors for thorough monitoring.
+    Responsive Design: Seamless browsing on desktops, tablets, and smartphones.
+    Exclusive Deals: Special offers and discounts on select properties.
+    Elegant Architecture: Stunning design with intricate details.
+    Sustainability: Eco-friendly practices for a reduced environmental footprint.
+    Comprehensive Surveillance: Advanced security systems for thorough monitoring.
 
 
   # I am using those npm package in my website for the challenges task.

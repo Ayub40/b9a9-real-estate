@@ -26,7 +26,7 @@ const UpdateProfile = () => {
     //     }
     // }, []);
 
-
+   
     const handleRegister = e => {
         e.preventDefault();
         console.log(e.currentTarget);
@@ -51,7 +51,7 @@ const UpdateProfile = () => {
                 updateUserProfile(name, photo)
                     .then(() => { })
                 console.log(result.user)
-                
+
                 // setReload(true)
             })
             .catch(error => {
@@ -84,7 +84,7 @@ const UpdateProfile = () => {
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="email" name="email" placeholder='' value={user?.email} className="input input-bordered text-black"  />
+                                <input type="email" name="email" placeholder='' value={user?.email} className="input input-bordered text-black" />
                             </div>
                             <div className="form-control">
                                 <label className="label">

@@ -1,13 +1,11 @@
 import bike from '../assets/bike3.png';
-import { Helmet } from "react-helmet-async";
+import { Helmet } from 'react-helmet-async';
 
-const Orders = () => {
-
-
+const Offer = () => {
     return (
         <div>
             <Helmet>
-                <title>Orders</title>
+                <title>Offer</title>
             </Helmet>
             <div>
                 <h1 className='mb-5 text-[#5B8291] mt-5 text-center text-3xl font-bold animate__animated animate__flip'>Offer!!! Offer!!! Offer!!!</h1>
@@ -30,4 +28,4 @@ const Orders = () => {
     );
 };
 
-export default Orders;
+export default Offer;
