@@ -25,13 +25,13 @@ const Navbar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/update">Update Profile </NavLink></li>
         {/* <li><NavLink to="/blogs">Blog</NavLink></li> */}
-        <li><NavLink to="/orders">Orders</NavLink></li>
+        <li><NavLink to="/orders">Offer</NavLink></li>
 
-        {/* {
+        {
             user && <>
-                <li><NavLink to="/profile">User Profile</NavLink></li>
+                <li><NavLink to="/profile"> Profile</NavLink></li>
             </>
-        } */}
+        }
     </>
 
     return (
@@ -45,7 +45,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Archo</a>
+                <a className="btn btn-ghost text-xl">Property Prowess</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

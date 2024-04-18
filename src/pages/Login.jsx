@@ -1,4 +1,5 @@
 
+// import { FaGithub, FaGoogle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -9,6 +10,7 @@ import { AuthContext } from "../providers/AuthProvider";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from "react-helmet-async";
+// import { FcGoogle } from "react-icons/fc";
 
 
 const Login = () => {
@@ -73,6 +75,8 @@ const Login = () => {
 
 
     return (
+
+
         <div className="container">
             <Helmet>
                 <title>Login</title>
@@ -98,22 +102,22 @@ const Login = () => {
                     <div className="social-login">
                         <h3>log in via</h3>
                         <div className="social-icons justify-center flex gap-5 mt-3">
-                            <p className="w-10 "><button onClick={handleGoogleSignIn} className="ml-2 px-12 ">< FcGoogle className="text-3xl"></FcGoogle></button></p>
-                            <p className=""><button onClick={handleGithubSignIn} className=" ml-2 px-12 mb-2"><FaGithub className="text-3xl"></FaGithub> </button></p>
+                            <p className="w-10"><button onClick={handleGoogleSignIn} className="">< FcGoogle className="text-3xl"></FcGoogle></button></p>
+                            <p className=""><button onClick={handleGithubSignIn} className=" "><FaGithub className="text-3xl"></FaGithub> </button></p>
                             {/* <a href="#" className="social-login__icon fab fa-instagram"></a>
-                            <a href="#" className="social-login__icon fab fa-facebook"></a>
-                            <a href="#" className="social-login__icon fab fa-twitter"></a> */}
+                                    <a href="#" className="social-login__icon fab fa-facebook"></a>
+                                    <a href="#" className="social-login__icon fab fa-twitter"></a> */}
                         </div>
                         <ToastContainer />
                     </div>
                 </div>
                 <p className="text-center mt-5 mb-5">Dont’t Have An Account ? <Link className="text-[#FF8C47] font-bold" to='/register'>Register</Link> </p>
-{/* 
-                <div className="border flex gap-10 justify-center ">
-                    <p className=""><button onClick={handleGoogleSignIn} className="btn btn-outline ml-2 px-12 ">< FcGoogle></FcGoogle> Google Login</button></p>
-                    <p className=""><button onClick={handleGithubSignIn} className="btn btn-outline ml-2 px-12 mb-2"><FaGithub></FaGithub> Github Login</button></p>
-                </div> */}
-                
+                {/* 
+                        <div className="border flex gap-10 justify-center ">
+                            <p className=""><button onClick={handleGoogleSignIn} className="btn btn-outline ml-2 px-12 ">< FcGoogle></FcGoogle> Google Login</button></p>
+                            <p className=""><button onClick={handleGithubSignIn} className="btn btn-outline ml-2 px-12 mb-2"><FaGithub></FaGithub> Github Login</button></p>
+                        </div> */}
+
 
 
 

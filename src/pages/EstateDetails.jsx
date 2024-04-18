@@ -20,11 +20,11 @@ const EstateDetails = () => {
     // }
 
     return (
-        <section className="dark:bg-gray-100 dark:text-gray-800">
+        <section  className="dark:bg-gray-100 dark:text-gray-800">
             <Helmet>
                 <title>EstateDetails</title>
             </Helmet>
-            <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+            <div className="max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 
                 <div>
                     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
